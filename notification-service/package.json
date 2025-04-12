@@ -1,0 +1,19 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["notification", "task-events", "kafka", "node.js"],
+  "author": "Baharaz78",
+  "license": "ISC",
+  "description": "A Node.js service that listens to Kafka events and sends notifications based on task updates.",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "kafka-node": "^5.0.0",
+    "nodemailer": "^6.10.0"
+  }
+}

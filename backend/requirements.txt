@@ -1,0 +1,6 @@
+asgiref==3.8.1
+Django==5.2
+djangorestframework==3.16.0
+kafka-python==2.1.5
+psycopg2-binary==2.9.10
+sqlparse==0.5.3
